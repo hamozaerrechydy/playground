@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#intro{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+#intro h1{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+#intro h1 span{
+    font-size: 1.5rem;
+}
+.questions{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+}
+.questions h2{
+    font-size: 2.5rem;
+}
+.questions p{
+    font-size: 1.3rem;
+}
+#what{
+    height: 33.33vh;
+}
+#why{
+    background-color: black;
+    color: white;
+    height: 33.33vh;
+
+}
+#how{
+    height: 33.33vh;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.1rem;
+}
+#projects-main{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+
+}
+#projects-main a{
+    padding: 10%; 
+    margin: 1% auto;
+    font-size: 2rem;
+}
+
+#projects-main a:hover{
+    background-color: black;
+    color: white;
+}
+#projects-view{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+#projects-view a{
+    padding: 10%; 
+    margin: 1% auto;
+    font-size: 2rem;
+}
+#projects-view a:hover{
+    background-color: black;
+    color: white;
+}
